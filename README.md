@@ -12,9 +12,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -48,8 +46,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/newsletter-signup-form-htmlcssjs-mzUY4sAXvM)
+- Live Site URL: [Live site URL](https://newsletter-sign-up-with-success-message-challenge.vercel.app/)
 
 ## My process
 
