@@ -1,0 +1,8 @@
+.footer__attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--clr-white);
+}
+.footer__attribution a {
+  color: var(--clr-tomato);
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/vite.svg" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <!-- <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/app.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/success.css" />
+    <link rel="stylesheet" href="./styles/utils.css" /> -->
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <div class="success">
+      <div class="success__container">
+        <img
+          src="./assets/images/icon-success.svg"
+          alt=""
+          class="success__container-img"
+        />
+        <h2 class="success__container-title">Thanks for subscribing!</h2>
+        <p>
+          A confirmation email has been sent to
+          <strong> <span class="success__container-span"> </span> </strong>.
+          Please open it and click the button inside to confirm your
+          subscription.
+        </p>
+        <button type="button" class="success__container-btn btn">
+          Dismiss message
+        </button>
+      </div>
+    </div>
+    <section class="app container section">
+      <div class="app__img">
+        <picture>
+          <source
+            srcset="./assets/images/illustration-sign-up-desktop.svg"
+            media="(min-width: 1440px)"
+            alt=""
+          />
+          <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" />
+        </picture>
+      </div>
+      <div class="app__form">
+        <h2 class="app__form-title">Stay updated!</h2>
+        <p class="app__form-paragraph">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <ul>
+          <li class="app__form-li">
+            Product discovery and building what matters
+          </li>
+          <li class="app__form-li">
+            Measuring to ensure updates are a success
+          </li>
+          <li class="app__form-li">And much more!</li>
+        </ul>
+        <div class="app__form-wrapper">
+          <label for="app__form-input" class="app__form-wrapper-label">
+            Email address
+          </label>
+          <label
+            for="app__form-input"
+            class="app__form-wrapper-label app__form-wrapper-invalid"
+            >Valid email required</label
+          >
+        </div>
+        <input
+          type="email"
+          name="app__form-input"
+          class="app__form-input"
+          placeholder="email@company.com"
+          pattern=".+@.+\..+"
+          required
+        />
+        <button type="button" class="app__form-btn btn">
+          Subscribe to monthly newsletter
+        </button>
+      </div>
+    </section>
+
+    <section class="footer container section">
+      <div class="footer__attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Bottom17">Nuno Costa</a>.
+      </div>
+    </section>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
